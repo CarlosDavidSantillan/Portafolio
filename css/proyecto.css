@@ -1,0 +1,32 @@
+
+
+/*Nombre de la clase*/
+
+.ititulo{
+    display: flex;
+    justify-content:left;
+    align-items: left;   
+}
+
+.ititulo div{
+    margin-right: 10px;
+}
+
+.ihorizontal{
+    display: flex;
+    justify-content:right;
+    align-items: right;
+}
+
+.ihorizontal a{
+    margin-right: 20px;
+}
+
+/*id*/
+#identificador{
+    color:aqua;
+}
+
+/*bloque*/
+
+

@@ -5,30 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CDTechShop</title>
     <link rel="shortcut icon" href="/img/icons/cds.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/proyecto.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
     <!-- Primera Region-->
     <section>
-        <div>
-            <img src="/img/icons/cds.png" alt="Logo">
+        <div class="ititulo"><img src="/img/icons/cds.png" alt="Logo">
+        <h1 class="nombretienda">CDTechShop</h1>
         </div>
         <div>
-            <h1>CDTechShop</h1>
-        </div>
-        <div>
-            <nav>
-                <a href="#">¿Quienes somos?</a>
-                <a href="#">Productos</a>
-                <a href="#">Ventas</a>
-                <a href="#">Servicio al Cliente</a>
+            <nav class="inav">
+                <a href="#"><button>¿Quienes somos?</button></a>
+                <a href="#"><button>Productos</button></a>
+                <a href="#"><button>Tus Compras</button></a>
+                <a href="#"><button>Servicio al Cliente</button></a>
+                <input type="text"><button>Buscar</button>
+                <a href="https://web.whatsapp.com/" target="_blank"><img src="/img/resourse/whatsapp.png" alt="whatsapp"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="/img/resourse/instagram.png" alt="instagram"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="/img/resourse/facebook.png" alt="facebook"></a>
+                <a href="https://x.com/" target="_blank"><img src="/img/resourse/gorjeo.png" alt="x"></a>
             </nav>
-        </div>
-        <div>
-            <p>whatsapp</p>
-            <p>instagram</p>
-            <p>facebook</p>
-            <p>x</p>
         </div>
     </section>
     <hr>
@@ -36,7 +34,7 @@
     <!-- Segunda Region-->
     <section>
         <div class="col">
-            <img src="/img/Fondo.jpg" alt="Imagen de fondo">
+            <img class="ifondo" src="/img/resourse/Fondo.jpg" alt="Imagen de fondo">
         </div>
     </section>
     <hr>
@@ -49,30 +47,28 @@
             <p>Esta plataforma de venta online te permitira conseguir lo que requieres con solo ponerte en contacto con nosotros.</p>
             <br>
             <p>Con solo un click podra obtener lo que desea, confie en nosotros para tus compras virtuales.</p> 
-        </div>
-        <div class="col">
-            <img src="" alt="Imagen de la tienda">
+            <img class="ifondo" src="/img/resourse/Tienda virtual.jpg" alt="Imagen de la tienda">
         </div> 
     </section>
     <hr>
 
     <!-- Cuarta Region-->
     <section>
+        <div class="col" class="ifondo">
             <h1>Productos</h1>
-        
-        <div class="col">
-            <nav>
-                <a href="">Laptops</a>
-                <img src="" alt="Laptops">
-                <br>
-                <a href="">Tablets</a>
-                <img src="" alt="Tablets">
-                <br>
-                <a href="">SmartPhones</a>
-                <img src="" alt="SmartPhones">
-                <br>
-                <a href="">Otros Articulos</a>
-                <img src="" alt="Otros Articulos">
+            <nav class="iopciones">
+                <div>
+                    <a href=""><button>Laptops</button></a>
+                    <img src="/img/resourse/laptops.png" alt="Laptops">
+                    
+                    <img src="/img/resourse/tablets.jpg" alt="Tablets">
+                    <a href=""><button>Tablets</button></a>
+                    <a href=""><button>SmartPhones</button></a>
+                    <img src="/img/resourse/Smartphones.jpg" alt="SmartPhones">
+                    
+                    <img src="/img/resourse/smartwatches.jpg" alt="Smartwatch">
+                    <a href=""><button>Smartwatch</button></a>
+                </div>
             </nav>   
         </div>
     </section>
@@ -80,17 +76,16 @@
 
      <!-- Quinta Region-->
      <section>
-            <h1>Ventas</h1>
-        
         <div class="col">
-            <nav>
-                <a href="">Tu compra Online</a>
-                <ul>
-                    <li>Con tarjeta</li>
-                    <img src="" alt="Con tarjeta">
-                    <li>Sin tarjeta</li>
-                    <img src="" alt="Sin tarjeta">
-                </ul>
+            <h1>Tus Compras</h1>
+            <nav class="inav">
+                <a href=""><button>Tu compra Online</button></a>
+                    <p><strong>Con tarjeta</strong>
+                    <img src="/img/resourse/visa.png" alt="Con tarjeta Visa">
+                    <img src="/img/resourse/logo.png" alt="Con tarjeta MasterCard">
+                </p>
+                    <p><strong>Sin tarjeta</strong>
+                    <img src="" alt="Sin tarjeta"></p>
             </nav>
         </div>
     </section>
@@ -98,21 +93,21 @@
 
          <!-- Sexta Region-->
     <section>
+        <div class="col">
             <h1>Servicio al Cliente</h1>
             <nav>
-                <a href="">Escribenos</a>
-                <a href="">Suscribete</a>
-                <a href="">Libro de reclamaciones</a>
+                <a href=""><button>Escribenos</button></a>
+                <a href=""><button>Suscribete</button></a>
+                <a href=""><button>Libro de reclamaciones</button></a>
             </nav>
-
-        <div class="col">
-
         </div>
     </section>
     <hr>
 
 </body>
 <footer>
-    <p>Todos los derechos reservados.</p>
+    <div>
+        <p>Todos los derechos reservados.</p>
+    </div>
 </footer>
 </html>
